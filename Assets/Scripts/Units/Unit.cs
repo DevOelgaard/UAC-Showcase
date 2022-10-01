@@ -1,12 +1,13 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
+using UniRx;
 using UnityEngine;
 
-public class Unit : MonoBehaviour
+public class Unit : AgentMono
 {
         public UnitAttributes attributes;
         private MuzzleFlash muzzleFlash;
+        public IObservable<Unit> HasDied => hasDied;
+        private readonly Subject<Unit> hasDied = new Subject<Unit>();
 
         public MuzzleFlash MuzzleFlash
         {
@@ -46,14 +47,22 @@ public class Unit : MonoBehaviour
                 Go.transform.position = newPosition;
         }
 
+        /// <summary>
+        /// Used for displaying animations and so forth
+        /// </summary>
+        /// <param name="target"></param>
         public void Attack(Unit target)
         {
                 Debug.Log(Go.name + " Attacked: " + target.name);
         }
 
-        public void Hit(Unit hitBy)
+        /// <summary>
+        /// Used for displaying hit animations
+        /// </summary>
+        /// <param name="hitBy"></param>
+        /// <param name="damage"></param>
+        public void TakeHit(Unit hitBy, float damage)
         {
-                var damage = 0f;
                 if (attributes.isSoft)
                 {
                         damage = hitBy.attributes.damageSoft;
@@ -66,6 +75,10 @@ public class Unit : MonoBehaviour
                 TakeDamage(damage);
         }
 
+        /// <summary>
+        /// Used for doing logic based on health level
+        /// </summary>
+        /// <param name="damage"></param>
         public void TakeDamage(float damage)
         {
                 attributes.health -= damage;
@@ -79,6 +92,6 @@ public class Unit : MonoBehaviour
         public void Die()
         {
                 attributes.health = 0;
-                gameObject.SetActive(false);
+                hasDied.OnNext(this);
         }
 }
