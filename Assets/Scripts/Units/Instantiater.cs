@@ -26,6 +26,13 @@ public class Instantiater: MonoBehaviour
         var spawnPointTransform = spawnPoint.transform;
         var unit = Instantiate(unitToSpawn, spawnPointTransform.position, Quaternion.identity);
         unit.transform.SetParent(spawnPointTransform);
+        // Lazy quickfix to a sprite, that should have been flipped
+        if (unitType == UnitType.Brute)
+        {
+            var rotation = unit.transform.rotation;
+            rotation.y = 180;
+            unit.transform.rotation = rotation;
+        }
         return unit;
     }
 }

@@ -124,7 +124,7 @@ Transform:
   m_GameObject: {fileID: 4465277796224958625}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.55, y: -1.81, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1933765068397944394}
@@ -195,6 +195,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 544178b842c224145bc0d26f95575724, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  model:
+    AutoTick: 1
+    MsBetweenTicks: 0
+    FramesBetweenTicks: 0
+  defaultAiName: 
   attributes:
     moveSpeed: 1
     maxHealth: 500
@@ -202,5 +207,7 @@ MonoBehaviour:
     damageSoft: 10
     damageHard: 10
     range: 4
+    optimalDistanceToTarget: 3
+    effectPercentAtMinimumRange: 0.3
     canMove: 1
     isSoft: 0
