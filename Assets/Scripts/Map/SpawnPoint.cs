@@ -9,15 +9,18 @@ public class SpawnPoint: MonoBehaviour
     private List<Unit> unitsSpawned = new List<Unit>();
     public int maxAllowedSpawns = 4;
 
-    public void SpawnUnit(Unit unit)
+
+    public void SpawnUnit(UnitType unitType)
     {
         if (CanSpawn())
         {
+            var unit = Instantiater.InstantiateUnit(this, unitType);
             unitsSpawned.Add(unit);
+            Debug.Log(name + " Spawned: " + unit.name + ". Usage: " + unitsSpawned.Count + "/" + maxAllowedSpawns);
         }
         else
         {
-            Debug.LogError("Can't spawn Unit: " + unit.name);
+            Debug.LogError("Can't spawn Unit: " + unitType);
         }
     }
 
@@ -41,5 +44,20 @@ public class SpawnPoint: MonoBehaviour
     public void RemoveUnit(Unit unit)
     {
         unitsSpawned.Remove(unit);
+    }
+    
+    private Instantiater instantiater;
+
+    private Instantiater Instantiater
+    {
+        get
+        {
+            if (instantiater == null)
+            {
+                instantiater = GameObject.Find("Instantiater").GetComponent<Instantiater>();
+            }
+
+            return instantiater;
+        }
     }
 }

@@ -1,5 +1,7 @@
 using System;
+using System.Linq;
 using UniRx;
+using Unity.Linq;
 using UnityEngine;
 
 public class Unit : AgentMono
@@ -15,7 +17,9 @@ public class Unit : AgentMono
                 {
                         if (muzzleFlash == null)
                         {
-                                muzzleFlash = Go.transform.Find("Flash").GetComponent<MuzzleFlash>();
+                                muzzleFlash = Go
+                                        .Child("Flash")
+                                        .GetComponent<MuzzleFlash>();
                         }
 
                         return muzzleFlash;
@@ -39,7 +43,7 @@ public class Unit : AgentMono
         private void Start()
         {
                 attributes.health = attributes.maxHealth;
-                muzzleFlash.HideFlash();
+                MuzzleFlash.HideFlash();
         }
 
         public void Move(Vector3 newPosition)
@@ -63,14 +67,6 @@ public class Unit : AgentMono
         /// <param name="damage"></param>
         public void TakeHit(Unit hitBy, float damage)
         {
-                if (attributes.isSoft)
-                {
-                        damage = hitBy.attributes.damageSoft;
-                }
-                else
-                {
-                        damage = hitBy.attributes.damageHard;
-                }
                 Debug.Log(Go.name + " Hit by: " + hitBy.name + " for " + damage + " damage");
                 TakeDamage(damage);
         }

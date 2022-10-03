@@ -32,15 +32,15 @@ public class MuzzleFlash: MonoBehaviour
 
     public void HideFlash()
     {
-        var color = flash.color;
+        var color = Flash.color;
         var newColor = new Color(color.r, color.g, color.b, 0);
-        flash.color = newColor;
+        Flash.color = newColor;
     }
 
     public void ShowFlash()
     {
-        var color = flash.color;
+        var color = Flash.color;
         var newColor = new Color(color.r, color.g, color.b, 1);
-        flash.color = newColor;
+        Flash.color = newColor;
     }
 }
