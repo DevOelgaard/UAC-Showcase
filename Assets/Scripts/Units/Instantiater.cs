@@ -24,6 +24,8 @@ public class Instantiater: MonoBehaviour
         };
 
         var spawnPointTransform = spawnPoint.transform;
-        return Instantiate(unitToSpawn, spawnPointTransform.position, Quaternion.identity, spawnPointTransform);
+        var unit = Instantiate(unitToSpawn, spawnPointTransform.position, Quaternion.identity);
+        unit.transform.SetParent(spawnPointTransform);
+        return unit;
     }
 }
