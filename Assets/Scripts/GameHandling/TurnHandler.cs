@@ -18,6 +18,7 @@ public class TurnHandler
       }
 
       private Queue<Unit> turnOrder;
+      private Unit activeUnit;
 
       public void AddUnitToTurnOrder(Unit unit)
       {
@@ -31,20 +32,29 @@ public class TurnHandler
 
       public void TakeNextTurn()
       {
+
             Debug.Log("---! Turn: " + TurnCount + " !---");
             var currentTurn = TurnCount;
             TurnCount++;
+            
+            if (activeUnit != null)
+            {
+                  activeUnit.Animator.StopAnimation();
+                  AddUnitToTurnOrder(activeUnit);
+            }
+            
             if (turnOrder.Count == 0)
             {
                   return;
             }
-            var unitToAct = turnOrder.Dequeue();
+            activeUnit = turnOrder.Dequeue();
             var metaData = new TickMetaData
             {
                   TickCount = currentTurn
             };
-            unitToAct.ActivateNextAction(metaData);
-            Debug.Log("Unit: " + unitToAct.name + " finished it's turn in: " + metaData.ExecutionTimeInMicroSeconds);
-            AddUnitToTurnOrder(unitToAct);
+            activeUnit.ActivateNextAction(metaData);
+            Debug.Log("Unit: " + activeUnit.name + " finished it's turn in: " + metaData.ExecutionTimeInMicroSeconds);
+            
+            
       }
 }

@@ -8,8 +8,10 @@ public class Unit : AgentMono
 {
         public UnitAttributes attributes;
         private MuzzleFlash muzzleFlash;
+        private GameObject hitFlash;
         public IObservable<Unit> HasDied => hasDied;
         private readonly Subject<Unit> hasDied = new Subject<Unit>();
+        public IAnimator Animator = new AnimationNone();
 
         public MuzzleFlash MuzzleFlash
         {
@@ -23,6 +25,20 @@ public class Unit : AgentMono
                         }
 
                         return muzzleFlash;
+                }
+        }
+
+        public GameObject HitFlash
+        {
+                get
+                {
+                        if (hitFlash == null)
+                        {
+                                hitFlash = Go
+                                        .Child("HitFlash");
+                        }
+
+                        return hitFlash;
                 }
         }
         public Vector3 MovementVector => new Vector3(1, 0, 0) * attributes.moveSpeed;
@@ -44,6 +60,7 @@ public class Unit : AgentMono
         {
                 attributes.health = attributes.maxHealth;
                 MuzzleFlash.HideFlash();
+                HitFlash.gameObject.SetActive(false);
         }
 
         public void Move(Vector3 newPosition)

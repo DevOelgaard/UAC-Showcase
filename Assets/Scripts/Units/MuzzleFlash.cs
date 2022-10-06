@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class MuzzleFlash: MonoBehaviour
 {
@@ -28,6 +29,11 @@ public class MuzzleFlash: MonoBehaviour
 
             return go;
         }
+    }
+
+    private void Start()
+    {
+        gameObject.SetActive(true);
     }
 
     public void HideFlash()

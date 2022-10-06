@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public static class InteractionHandler
 {
@@ -18,19 +19,23 @@ public static class InteractionHandler
               unit.Move(desiredPosition);
        }
 
-       public static void Attack(Unit attacker, Unit defender)
+       public static void Attack(Unit attacker, List<Unit> defenders)
        {
-              var distanceToTarget = GetDistance(attacker,defender);
-              if (distanceToTarget > attacker.attributes.range)
+              foreach (var defender in defenders)
               {
-                     Debug.LogError("Unit " + attacker.name + " can't attack! " + defender.name + " is out of range");
-                     return;
+                     var distanceToTarget = GetDistance(attacker,defender);
+                     if (distanceToTarget > attacker.attributes.range)
+                     {
+                            Debug.LogError("Unit " + attacker.name + " can't attack! " + defender.name + " is out of range");
+                            return;
+                     }
+
+                     var damage = GetDamage(attacker, defender, distanceToTarget);
+                     attacker.Attack(defender);
+                     defender.TakeHit(attacker,damage);
               }
 
-              var damage = GetDamage(attacker, defender, distanceToTarget);
-              
-              attacker.Attack(defender);
-              defender.TakeHit(attacker,damage);
+              attacker.Animator = new AnimationAttack(attacker, defenders);
        }
 
        public static float GetDistance(Unit attacker, Unit defender)
