@@ -50,3 +50,6 @@ TagManager:
   - name: Unit
     uniqueID: 2561542189
     locked: 0
+  - name: GameInfo
+    uniqueID: 1618846273
+    locked: 0

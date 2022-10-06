@@ -12,6 +12,23 @@ public class Unit : AgentMono
         public IObservable<Unit> HasDied => hasDied;
         private readonly Subject<Unit> hasDied = new Subject<Unit>();
         public IAnimator Animator = new AnimationNone();
+        private HealthBar healthBar;
+
+        private HealthBar HealthBar
+        {
+                get
+                {
+                        if (healthBar == null)
+                        {
+                                healthBar = Go
+                                        .Child("HealthBarCanvas")
+                                        .Child("HealthBar")
+                                        .GetComponent<HealthBar>();
+                        }
+
+                        return healthBar;
+                }
+        }
 
         public MuzzleFlash MuzzleFlash
         {
@@ -56,11 +73,13 @@ public class Unit : AgentMono
                 }
         }
 
-        private void Start()
+        protected override void Start()
         {
+                base.Start();
                 attributes.health = attributes.maxHealth;
                 MuzzleFlash.HideFlash();
                 HitFlash.gameObject.SetActive(false);
+                HealthBar.Init(this);
         }
 
         public void Move(Vector3 newPosition)
@@ -84,7 +103,7 @@ public class Unit : AgentMono
         /// <param name="damage"></param>
         public void TakeHit(Unit hitBy, float damage)
         {
-                Debug.Log(Go.name + " Hit by: " + hitBy.name + " for " + damage + " damage");
+                Debug.Log(Go.name + " Hit by: " + hitBy.name + " for " + damage + " damage" );
                 TakeDamage(damage);
         }
 
@@ -95,10 +114,13 @@ public class Unit : AgentMono
         public void TakeDamage(float damage)
         {
                 attributes.health -= damage;
+                Debug.Log(Go.name + " took: " + damage + " Health left: " + attributes.health);
+                HealthBar.SetValue(attributes.health);
 
                 if (attributes.health <= 0)
                 {
                         attributes.health = 0;
+                        Die();
                 }
         }
 
