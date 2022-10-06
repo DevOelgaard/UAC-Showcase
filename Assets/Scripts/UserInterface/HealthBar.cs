@@ -26,14 +26,14 @@ public class HealthBar : MonoBehaviour
 
     private void Start()
     {
-        slider.value = 100f;
+        Slider.value = 100f;
         fill.color = gradient.Evaluate(1f);
     }
 
     public void Init(Unit unit)
     {
-        slider.maxValue = unit.attributes.maxHealth;
-        slider.value = unit.attributes.health;
+        Slider.maxValue = unit.attributes.maxHealth;
+        Slider.value = unit.attributes.health;
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
 

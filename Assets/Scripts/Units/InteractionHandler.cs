@@ -5,7 +5,7 @@ public static class InteractionHandler
 {
        public static void Move(Unit unit, GameMap gameMap)
        {
-              if (!unit.attributes.canMove)
+              if (!unit.attributes.canMove || CanMoveOnMap(unit,gameMap))
               {
                      Debug.LogError("Unit " + unit.name + " can't move, and shouldn't try to");
                      return;
@@ -17,6 +17,25 @@ public static class InteractionHandler
                      desiredPosition.x = gameMap.RightUnitBoundary;
               } 
               unit.Move(desiredPosition);
+       }
+
+       public static float GetMoveAbleDistanceNormalized(Unit unit, GameMap gameMap)
+       {
+              var currentPosition = unit.transform.position;
+              var desiredPosition = currentPosition + unit.MovementVector;
+              if (desiredPosition.x > gameMap.RightUnitBoundary)
+              {
+                     desiredPosition.x = gameMap.RightUnitBoundary;
+              }
+
+              var totalDistance = gameMap.RightUnitBoundary - gameMap.LeftUnitBoundary;
+              var moveDistance = desiredPosition.x - currentPosition.x;
+              return Mathf.Abs(moveDistance) / totalDistance;
+       }
+
+       public static bool CanMoveOnMap(Unit unit, GameMap gameMap)
+       {
+              return unit.transform.position.x < gameMap.RightUnitBoundary;
        }
 
        public static void Attack(Unit attacker, List<Unit> defenders)

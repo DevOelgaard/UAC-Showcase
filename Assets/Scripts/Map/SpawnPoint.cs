@@ -16,6 +16,7 @@ public class SpawnPoint: MonoBehaviour
         {
             var unit = Instantiater.InstantiateUnit(this, unitType);
             unitsSpawned.Add(unit);
+            TurnHandler.Instance.AddUnitToTurnOrder(unit);
             Debug.Log(name + " Spawned: " + unit.name + ". Usage: " + unitsSpawned.Count + "/" + maxAllowedSpawns);
         }
         else

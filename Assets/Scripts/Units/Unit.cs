@@ -80,6 +80,13 @@ public class Unit : AgentMono
                 MuzzleFlash.HideFlash();
                 HitFlash.gameObject.SetActive(false);
                 HealthBar.Init(this);
+                SetContextType(new UnitAiContext());
+        }
+
+        // Very inefficient/redundant but speeds up implementation
+        private void Update()
+        {
+                HealthBar.Init(this);
         }
 
         public void Move(Vector3 newPosition)
