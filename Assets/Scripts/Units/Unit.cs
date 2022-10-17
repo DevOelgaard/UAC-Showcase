@@ -131,9 +131,25 @@ public class Unit : AgentMono
                 }
         }
 
+
+        public void Repair(int consecutiveRepairs)
+        {
+                // Amount of health to repair increases with each consecutive repair
+                consecutiveRepairs = consecutiveRepairs <= 0 ? 1 : consecutiveRepairs;
+                var repairAmount = attributes.maxHealth * attributes.repairPercentage * consecutiveRepairs;
+                
+                attributes.health += repairAmount;
+                if (attributes.health > attributes.maxHealth)
+                {
+                        attributes.health = attributes.maxHealth;
+                }
+        }
+
         public void Die()
         {
+                Debug.Log(name + " Died!");
                 attributes.health = 0;
                 hasDied.OnNext(this);
+                Destroy(gameObject);
         }
 }

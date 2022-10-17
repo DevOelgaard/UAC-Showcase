@@ -23,15 +23,16 @@ public class UnitHandler
      {
           units.Add(unit);
           var unitSub = unit.HasDied.Subscribe(HandleUnitDied);
+          TurnHandler.Instance.AddUnitToTurnOrder(unit);
           unitSubscriptions.Add(unit,unitSub);
      }
 
      private void HandleUnitDied(Unit unit)
      {
+          Debug.Log("Handling death of: " + unit.name);
           unitSubscriptions[unit].Dispose();
           units.Remove(unit);
           TurnHandler.Instance.RemoveUnitFromTurnOrder(unit);
-          Object.Destroy(unit);
      }
 
      ~UnitHandler()

@@ -201,11 +201,12 @@ MonoBehaviour:
     AutoTick: 1
     MsBetweenTicks: 0
     FramesBetweenTicks: 0
-  defaultAiName: 
+  defaultAiName: Defender
   attributes:
     moveSpeed: 0
     maxHealth: 100
     health: 100
+    repairPercentage: 0.1
     damageSoft: 10
     damageHard: 350
     range: 10

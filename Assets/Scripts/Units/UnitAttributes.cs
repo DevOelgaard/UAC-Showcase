@@ -8,6 +8,7 @@ public class UnitAttributes
     public float moveSpeed = 1f;
     public float maxHealth = 100f;
     public float health = 100f;
+    public float repairPercentage = 0.1f;
     public float damageSoft = 10f;
     public float damageHard = 1f;
     public float range = 5f;

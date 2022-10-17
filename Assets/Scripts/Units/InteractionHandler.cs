@@ -5,9 +5,15 @@ public static class InteractionHandler
 {
        public static void Move(Unit unit, GameMap gameMap)
        {
-              if (!unit.attributes.canMove || CanMoveOnMap(unit,gameMap))
+              
+              if (!unit.attributes.canMove)
               {
-                     Debug.LogError("Unit " + unit.name + " can't move, and shouldn't try to");
+                     Debug.LogError("Unit " + unit.name + " isn't a type that can move.");
+                     return;
+              }
+              if (!CanMoveOnMap(unit,gameMap))
+              {
+                     Debug.LogError("Unit " + unit.name + " can't move on the map.");
                      return;
               }
               var currentPosition = unit.transform.position;
@@ -36,6 +42,11 @@ public static class InteractionHandler
        public static bool CanMoveOnMap(Unit unit, GameMap gameMap)
        {
               return unit.transform.position.x < gameMap.RightUnitBoundary;
+       }
+
+       public static void Attack(Unit attacker, Unit defender)
+       {
+              Attack(attacker,new List<Unit>{defender});
        }
 
        public static void Attack(Unit attacker, List<Unit> defenders)

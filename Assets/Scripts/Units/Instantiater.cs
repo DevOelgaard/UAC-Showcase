@@ -33,6 +33,7 @@ public class Instantiater: MonoBehaviour
             rotation.y = 180;
             unit.transform.rotation = rotation;
         }
+        UnitHandler.Instance.AddUnit(unit);
         return unit;
     }
 }

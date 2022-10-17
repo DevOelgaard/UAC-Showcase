@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
+using UniRx;
 
 public class SpawnPoint: MonoBehaviour
 {
+    private Dictionary<Unit, IDisposable> unitSubscriptions = new Dictionary<Unit, IDisposable>();
     public bool isUnitSpawn = true;
-    private List<Unit> unitsSpawned = new List<Unit>();
+    public List<Unit> UnitsSpawned { get; private set; }= new List<Unit>();
     public int maxAllowedSpawns = 4;
 
 
@@ -15,9 +16,10 @@ public class SpawnPoint: MonoBehaviour
         if (CanSpawn())
         {
             var unit = Instantiater.InstantiateUnit(this, unitType);
-            unitsSpawned.Add(unit);
-            TurnHandler.Instance.AddUnitToTurnOrder(unit);
-            Debug.Log(name + " Spawned: " + unit.name + ". Usage: " + unitsSpawned.Count + "/" + maxAllowedSpawns);
+            UnitsSpawned.Add(unit);
+            var sub = unit.HasDied.Subscribe(HandleUnitDied);
+            unitSubscriptions.Add(unit,sub);
+            Debug.Log(name + " Spawned: " + unit.name + ". Usage: " + UnitsSpawned.Count + "/" + maxAllowedSpawns);
         }
         else
         {
@@ -25,28 +27,43 @@ public class SpawnPoint: MonoBehaviour
         }
     }
 
+    private void HandleUnitDied(Unit unit)
+    {
+        RemoveUnit(unit);
+    }
+
     private void Start()
     {
-        unitsSpawned = new List<Unit>();
+        UnitsSpawned = new List<Unit>();
     }
 
     public bool CanSpawn()
     {
         if (isUnitSpawn)
         {
-            return unitsSpawned.Count < maxAllowedSpawns;
+            return UnitsSpawned.Count < maxAllowedSpawns;
         }
         else
         {
-            return unitsSpawned.Count == 0;
+            return UnitsSpawned.Count == 0;
         }
     }
 
     public void RemoveUnit(Unit unit)
     {
-        unitsSpawned.Remove(unit);
+        UnitsSpawned.Remove(unit);
+        RemoveSubscription(unit);
     }
-    
+
+    private void RemoveSubscription(Unit unit)
+    {
+        if (unitSubscriptions.ContainsKey(unit))
+        {
+            unitSubscriptions[unit].Dispose();
+            unitSubscriptions.Remove(unit);
+        }
+    }
+
     private Instantiater instantiater;
 
     private Instantiater Instantiater
@@ -59,6 +76,14 @@ public class SpawnPoint: MonoBehaviour
             }
 
             return instantiater;
+        }
+    }
+
+    private void OnDestroy()
+    {
+        foreach (var unitSubscription in unitSubscriptions)
+        {
+            unitSubscription.Value.Dispose();
         }
     }
 }

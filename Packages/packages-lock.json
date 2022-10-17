@@ -107,7 +107,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.15",
+      "version": "3.0.16",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -212,7 +212,7 @@
         "com.unity.nuget.newtonsoft-json": "2.0.2",
         "com.unity.editorcoroutines": "1.0.0"
       },
-      "hash": "ef83f4546f408416845900b715f16b22ceb4d9c1"
+      "hash": "ff0baeedc55100a025ebe3595baf11eba10be9e6"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

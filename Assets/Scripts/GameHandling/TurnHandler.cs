@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -53,7 +51,8 @@ public class TurnHandler
                   TickCount = currentTurn
             };
             activeUnit.ActivateNextAction(metaData);
-            Debug.Log("Unit: " + activeUnit.name + " finished it's turn in: " + metaData.ExecutionTimeInMicroSeconds);
+            activeUnit.Animator.StartAnimation();
+            Debug.Log("Unit: " + activeUnit.name + " finished it's turn in: " + metaData.ExecutionTimeInMicroSeconds+"ms.");
             
             
       }
