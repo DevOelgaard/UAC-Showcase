@@ -5,6 +5,8 @@
         var unitContext = context as UnitAiContext;
         var unit = UacHelper.GetUnitFromAiContext(unitContext);
         var potentialDamage = InteractionHandler.GetDamage(unit, unitContext.Target);
-        return potentialDamage / unitContext.Target.attributes.maxHealth;
+
+        MaxFloat.Value = unitContext.Target.attributes.maxHealth;
+        return potentialDamage;
     }
 }

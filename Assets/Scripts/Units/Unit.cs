@@ -1,5 +1,4 @@
 using System;
-using System.Linq;
 using UniRx;
 using Unity.Linq;
 using UnityEngine;
@@ -58,6 +57,39 @@ public class Unit : AgentMono
                         return hitFlash;
                 }
         }
+
+        private GameObject selectionHighlight;
+
+        private GameObject SelectionHighlight
+        {
+                get
+                {
+                        if (selectionHighlight == null)
+                        {
+                                selectionHighlight = Go
+                                        .Child("SelectionHighlight");
+                        }
+
+                        return selectionHighlight;
+                }
+        }
+
+        private GameObject targetHighlight;
+
+        private GameObject TargetHighlight
+        {
+                get
+                {
+                        if (targetHighlight == null)
+                        {
+                                targetHighlight = Go
+                                        .Child("TargetHighligt");
+                        }
+
+                        return targetHighlight;
+                }
+        }
+        
         public Vector3 MovementVector => new Vector3(1, 0, 0) * attributes.moveSpeed;
         private GameObject go;
         private GameObject Go
@@ -81,6 +113,7 @@ public class Unit : AgentMono
                 HitFlash.gameObject.SetActive(false);
                 HealthBar.Init(this);
                 SetContextType(new UnitAiContext());
+                SelectionHighlight.gameObject.SetActive(false);
         }
 
         // Very inefficient/redundant but speeds up implementation
@@ -145,6 +178,21 @@ public class Unit : AgentMono
                 }
         }
 
+        public void MarkForNextTurn(bool isNext)
+        {
+                SelectionHighlight.gameObject.SetActive(isNext);
+                TargetHighlight.gameObject.SetActive(isNext);
+
+                if (isNext)
+                {
+
+                        TargetHighlight.transform.parent = null;
+                        TargetHighlight.transform.localScale = Vector3.one * attributes.range * 2;
+                        TargetHighlight.transform.parent = Go.transform;
+                }
+        }
+
+
         public void Die()
         {
                 Debug.Log(name + " Died!");
@@ -152,4 +200,5 @@ public class Unit : AgentMono
                 hasDied.OnNext(this);
                 Destroy(gameObject);
         }
+        
 }
