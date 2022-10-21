@@ -634,11 +634,11 @@
                               "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
                             },
                             {
-                              "Name": "Growth Rate",
-                              "Value": 10.0,
+                              "Name": "a",
+                              "Value": 1.0,
                               "ValueTypeString": "System.Single",
                               "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-                              "FileName": "Growth Rate",
+                              "FileName": "a",
                               "FolderLocation": null,
                               "Index": -1,
                               "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -646,11 +646,11 @@
                               "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
                             },
                             {
-                              "Name": "Mid Point",
-                              "Value": 0.5,
+                              "Name": "b",
+                              "Value": 0.0,
                               "ValueTypeString": "System.Single",
                               "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-                              "FileName": "Mid Point",
+                              "FileName": "b",
                               "FolderLocation": null,
                               "Index": -1,
                               "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -661,11 +661,11 @@
                           "paramIntStates": [],
                           "paramStringStates": []
                         },
-                        "guid": "ea174171-e168-4fea-a9ff-a2fdeb6995bf",
-                        "Name": "Logistic",
+                        "guid": "33b631fd-c155-4c6f-b888-57165991464d",
+                        "Name": "Linear",
                         "Description": null,
-                        "AssemblyQualifiedName": "LogisticFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-                        "OriginalType": "LogisticFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
                       }
                     ],
                     "segments": [],
@@ -1423,7 +1423,7 @@
           ],
           "weight": {
             "Name": "Weight",
-            "Value": 0.176,
+            "Value": 0.001,
             "ValueTypeString": "System.Single",
             "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
             "FileName": "Weight",
@@ -2910,7 +2910,7 @@
           ],
           "weight": {
             "Name": "Weight",
-            "Value": 0.1,
+            "Value": 0.001,
             "ValueTypeString": "System.Single",
             "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
             "FileName": "Weight",

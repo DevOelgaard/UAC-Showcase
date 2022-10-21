@@ -1,6 +1,5 @@
-﻿using UnityEngine;
-
-public class Example_TickingAgent: MonoBehaviour
+﻿
+public class Example_AgentNextAction
 {
         private AgentMono agent;
         public void NextActionNoMetaData()
