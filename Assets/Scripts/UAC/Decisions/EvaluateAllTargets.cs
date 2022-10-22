@@ -69,6 +69,7 @@ public class EvaluateAllTargets: Decision
         
         // Setting the highest valued target in unitContext, for it to be used by AgentActions if decisions is selected
         unitContext.Target = highestValuedTarget;
-        return highestUtility;
+        
+        return highestUtility > 0 ? highestUtility : 0;
     }
 }

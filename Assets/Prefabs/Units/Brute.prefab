@@ -106,7 +106,7 @@ MonoBehaviour:
     AutoTick: 1
     MsBetweenTicks: 0
     FramesBetweenTicks: 0
-  defaultAiName: 
+  defaultAiName: Attacker
   attributes:
     moveSpeed: 2
     maxHealth: 10

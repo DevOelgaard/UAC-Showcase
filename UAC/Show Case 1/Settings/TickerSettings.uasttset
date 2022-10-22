@@ -1,5 +1,5 @@
 {
-  "currentTickerModeName": "DesiredFrameRate",
+  "currentTickerModeName": "Unrestricted",
   "tickerModeStates": [
     {
       "Name": "DesiredFrameRate",
@@ -23,18 +23,6 @@
         "paramEnumStates": [],
         "paramFloatStates": [
           {
-            "Name": "Target Framerate",
-            "Value": 60.0,
-            "ValueTypeString": "System.Single",
-            "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-            "FileName": "Target Framerate",
-            "FolderLocation": null,
-            "Index": -1,
-            "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-          },
-          {
             "Name": "Sample Time Seconds",
             "Value": 1.0,
             "ValueTypeString": "System.Single",
@@ -49,11 +37,11 @@
         ],
         "paramIntStates": [
           {
-            "Name": "DebugTickCount",
-            "Value": 0,
+            "Name": "Target Framerate",
+            "Value": 60,
             "ValueTypeString": "System.Int32",
             "ValueType": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-            "FileName": "DebugTickCount",
+            "FileName": "Target Framerate",
             "FolderLocation": null,
             "Index": -1,
             "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -61,11 +49,11 @@
             "OriginalType": "ParamInt, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
           },
           {
-            "Name": "Target Framerate",
-            "Value": 60,
+            "Name": "DebugTickCount",
+            "Value": 0,
             "ValueTypeString": "System.Int32",
             "ValueType": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-            "FileName": "Target Framerate",
+            "FileName": "DebugTickCount",
             "FolderLocation": null,
             "Index": -1,
             "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",

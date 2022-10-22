@@ -154,7 +154,7 @@ public class Unit : AgentMono
         public void TakeDamage(float damage)
         {
                 attributes.health -= damage;
-                Debug.Log(Go.name + " took: " + damage + " Health left: " + attributes.health);
+                Debug.Log(Go.name + " took: " + damage + " damage. Health left: " + attributes.health);
                 HealthBar.SetValue(attributes.health);
 
                 if (attributes.health <= 0)
@@ -176,6 +176,8 @@ public class Unit : AgentMono
                 {
                         attributes.health = attributes.maxHealth;
                 }
+                Debug.Log(Go.name + " repaired: " + repairAmount + " health. Health left: " + attributes.health);
+
         }
 
         public void MarkForNextTurn(bool isNext)

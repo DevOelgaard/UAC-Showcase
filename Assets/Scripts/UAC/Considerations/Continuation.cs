@@ -18,6 +18,13 @@ public class Continuation: ConsiderationModifier
 
     protected override float CalculateBaseScore(IAiContext context)
     {
+        return -1;
+    }
+
+    public override float CalculateScore(IAiContext context)
+    {
+        var parentAsUtilityContainer = Parent as UtilityContainer;
+        var baseWeightOfParent = parentAsUtilityContainer.GetWeight();
         var attachedToBucket = ParameterContainer.GetParamBool("Attached To Bucket");
         var attachedToDecision = ParameterContainer.GetParamBool("Attached To Decision");
 
@@ -29,7 +36,6 @@ public class Continuation: ConsiderationModifier
                 ? consecutiveSelections++
                 : 0;
 
-            return consecutiveSelections;
         } else if (attachedToBucket.Value)
         {
             // Checks if the last selected bucket is the same as the current evaluated bucket
@@ -37,10 +43,12 @@ public class Continuation: ConsiderationModifier
             consecutiveSelections = context.LastSelectedBucket == context.CurrentEvaluatedBucket
                 ? consecutiveSelections++
                 : 0;
-
-            return consecutiveSelections;
         }
-
-        return -1;
+        else
+        {
+            consecutiveSelections = 0;
+        }
+        
+        return consecutiveSelections > 0 ? consecutiveSelections : baseWeightOfParent;
     }
 }
