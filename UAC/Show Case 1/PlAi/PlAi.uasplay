@@ -604,7 +604,20 @@
                 ],
                 "paramColorStates": [],
                 "paramEnumStates": [],
-                "paramFloatStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Base Weight",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Base Weight",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
                 "paramIntStates": [],
                 "paramStringStates": []
               },
@@ -899,7 +912,20 @@
                 "paramBoolStates": [],
                 "paramColorStates": [],
                 "paramEnumStates": [],
-                "paramFloatStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Base Weight",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Base Weight",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
                 "paramIntStates": [],
                 "paramStringStates": []
               },
@@ -1265,7 +1291,20 @@
                 "paramBoolStates": [],
                 "paramColorStates": [],
                 "paramEnumStates": [],
-                "paramFloatStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Base Weight",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Base Weight",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
                 "paramIntStates": [],
                 "paramStringStates": []
               },
@@ -2066,7 +2105,20 @@
                 ],
                 "paramColorStates": [],
                 "paramEnumStates": [],
-                "paramFloatStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Base Weight",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Base Weight",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
                 "paramIntStates": [],
                 "paramStringStates": []
               },
@@ -2517,7 +2569,20 @@
                 "paramBoolStates": [],
                 "paramColorStates": [],
                 "paramEnumStates": [],
-                "paramFloatStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Base Weight",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Base Weight",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
                 "paramIntStates": [],
                 "paramStringStates": []
               },
@@ -2883,7 +2948,20 @@
                 "paramBoolStates": [],
                 "paramColorStates": [],
                 "paramEnumStates": [],
-                "paramFloatStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Base Weight",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Base Weight",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
                 "paramIntStates": [],
                 "paramStringStates": []
               },
