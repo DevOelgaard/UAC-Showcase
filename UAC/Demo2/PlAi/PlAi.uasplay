@@ -236,7 +236,7 @@
                           "paramIntStates": [],
                           "paramStringStates": []
                         },
-                        "guid": "68c0afe6-e4e4-4f52-b001-95119cb49481",
+                        "guid": "74d51851-41c8-40f4-b9a8-2113b59b467a",
                         "Name": "Linear",
                         "Description": null,
                         "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -252,7 +252,7 @@
                       "paramIntStates": [],
                       "paramStringStates": []
                     },
-                    "guid": "1f1d91de-956f-4eaa-b089-4dfefd24b786",
+                    "guid": "f122306f-e1d9-431d-9ced-41bf3ef9a36f",
                     "Name": "Response Curve",
                     "Description": null,
                     "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -279,7 +279,7 @@
                     "paramIntStates": [],
                     "paramStringStates": []
                   },
-                  "guid": "0c9d1db3-1fd2-43ae-abbb-e33d0e1f64b7",
+                  "guid": "d037f7d7-e4fd-4cf1-a03e-9b29c887ee0d",
                   "Name": "Fixed Value",
                   "Description": null,
                   "AssemblyQualifiedName": "FixedValue, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -297,7 +297,7 @@
                     "paramStringStates": [
                       {
                         "Name": "Text",
-                        "Value": "Idle - Action",
+                        "Value": "Is idle",
                         "ValueTypeString": "System.String",
                         "ValueType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                         "FileName": "Text",
@@ -309,7 +309,7 @@
                       }
                     ]
                   },
-                  "guid": "9456d4e3-8ccf-4649-8a83-9b0aa1660217",
+                  "guid": "4250cd2d-8a55-4268-b4ed-ca2c1aa20821",
                   "Name": "Debug Log Text",
                   "Description": "Prints text and unit name",
                   "AssemblyQualifiedName": "DebugLogText, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -337,8 +337,8 @@
                 "paramIntStates": [],
                 "paramStringStates": []
               },
-              "guid": "1396d0ee-3daa-4c8a-970d-ab9125878a20",
-              "Name": "Idle-Decision",
+              "guid": "ccd065c9-42f9-4e09-a264-ae022033a38c",
+              "Name": "Decision",
               "Description": null,
               "AssemblyQualifiedName": "Decision, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
               "OriginalType": "Decision, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
@@ -439,7 +439,7 @@
                       "paramIntStates": [],
                       "paramStringStates": []
                     },
-                    "guid": "c3bb5c4f-ce7e-4eaa-92a6-9e48da9279c4",
+                    "guid": "fb0c06af-c766-4885-94cd-2d51f7dcdb18",
                     "Name": "Linear",
                     "Description": null,
                     "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -455,7 +455,7 @@
                   "paramIntStates": [],
                   "paramStringStates": []
                 },
-                "guid": "70290d2a-760f-409f-9e73-0c5b1da9b8d9",
+                "guid": "c991953f-8360-467d-8d62-131c5284b040",
                 "Name": "Response Curve",
                 "Description": null,
                 "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -482,7 +482,7 @@
                 "paramIntStates": [],
                 "paramStringStates": []
               },
-              "guid": "dd78678e-144a-4c42-bbe5-04221158bf45",
+              "guid": "15493593-5b56-41b4-a328-6ea55cc7ece2",
               "Name": "Fixed Value",
               "Description": null,
               "AssemblyQualifiedName": "FixedValue, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -509,7 +509,7 @@
             "paramIntStates": [],
             "paramStringStates": []
           },
-          "guid": "42965168-7edc-452f-b7d8-bcf21278e76a",
+          "guid": "797f60e2-4a9e-4afd-aeca-e6860161909f",
           "Name": "Idle",
           "Description": null,
           "AssemblyQualifiedName": "Bucket, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -524,7 +524,7 @@
         "paramIntStates": [],
         "paramStringStates": []
       },
-      "guid": "3e164c24-ea38-448e-974b-ae07643a556b",
+      "guid": "cbf94671-2b59-4b50-9f39-5c1c6d72f27f",
       "Name": "Idle Ai",
       "Description": null,
       "AssemblyQualifiedName": "Uai, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
