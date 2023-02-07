@@ -1,0 +1,3099 @@
+{
+  "uaiStates": [
+    {
+      "IsPLayable": true,
+      "CurrentBucketSelectorName": "Highest Score",
+      "CurrentDecisionSelectorName": "Highest Score",
+      "USName": "Average",
+      "bucketSelectorStates": [
+        {
+          "ParameterContainerState": {
+            "paramBoolStates": [],
+            "paramColorStates": [],
+            "paramEnumStates": [],
+            "paramFloatStates": [],
+            "paramIntStates": [],
+            "paramStringStates": []
+          },
+          "AssemblyQualifiedName": "UCSHighestScore, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "OriginalType": "UCSHighestScore, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "ParameterContainerState": {
+            "paramBoolStates": [
+              {
+                "Name": "Percentage chance",
+                "Value": true,
+                "ValueTypeString": "System.Boolean",
+                "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Percentage chance",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "paramColorStates": [],
+            "paramEnumStates": [],
+            "paramFloatStates": [
+              {
+                "Name": "Max deviation from highest",
+                "Value": 1.0,
+                "ValueTypeString": "System.Single",
+                "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Max deviation from highest",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "paramIntStates": [
+              {
+                "Name": "Number Of Items",
+                "Value": 1,
+                "ValueTypeString": "System.Int32",
+                "ValueType": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Number Of Items",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamInt, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamInt, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "paramStringStates": []
+          },
+          "AssemblyQualifiedName": "UCSRandomFromXHighest, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "OriginalType": "UCSRandomFromXHighest, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "decisionSelectorStates": [
+        {
+          "ParameterContainerState": {
+            "paramBoolStates": [],
+            "paramColorStates": [],
+            "paramEnumStates": [],
+            "paramFloatStates": [],
+            "paramIntStates": [],
+            "paramStringStates": []
+          },
+          "AssemblyQualifiedName": "UCSHighestScore, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "OriginalType": "UCSHighestScore, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "ParameterContainerState": {
+            "paramBoolStates": [
+              {
+                "Name": "Percentage chance",
+                "Value": true,
+                "ValueTypeString": "System.Boolean",
+                "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Percentage chance",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "paramColorStates": [],
+            "paramEnumStates": [],
+            "paramFloatStates": [
+              {
+                "Name": "Max deviation from highest",
+                "Value": 1.0,
+                "ValueTypeString": "System.Single",
+                "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Max deviation from highest",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "paramIntStates": [
+              {
+                "Name": "Number Of Items",
+                "Value": 1,
+                "ValueTypeString": "System.Int32",
+                "ValueType": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Number Of Items",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamInt, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamInt, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "paramStringStates": []
+          },
+          "AssemblyQualifiedName": "UCSRandomFromXHighest, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "OriginalType": "UCSRandomFromXHighest, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "bucketStates": [
+        {
+          "lastCalculatedUtility": 0.0,
+          "decisions": [
+            {
+              "lastCalculatedUtility": 0.0,
+              "considerationsStates": [
+                {
+                  "PerformanceTag": 2,
+                  "BaseScore": 0.0,
+                  "NormalizedScore": 0.0,
+                  "minParameter": {
+                    "Name": "Min",
+                    "Value": 0.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Min",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "maxParameter": {
+                    "Name": "Max",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Max",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "responseCurveState": {
+                    "MinY": 0.0,
+                    "MaxY": 1.0,
+                    "MinX": 0.0,
+                    "MaxX": 1.0,
+                    "IsInversed": false,
+                    "responseFunctions": [
+                      {
+                        "ParameterContainerState": {
+                          "paramBoolStates": [
+                            {
+                              "Name": "Inverse",
+                              "Value": false,
+                              "ValueTypeString": "System.Boolean",
+                              "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Inverse",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramColorStates": [],
+                          "paramEnumStates": [],
+                          "paramFloatStates": [
+                            {
+                              "Name": "Max",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Max",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "a",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "a",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "b",
+                              "Value": 0.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "b",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramIntStates": [],
+                          "paramStringStates": []
+                        },
+                        "guid": "b3673cb5-879f-48a5-b0b5-6d2d858c3906",
+                        "Name": "Linear",
+                        "Description": null,
+                        "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "segments": [],
+                    "ParameterContainerState": {
+                      "paramBoolStates": [],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "251627fa-9c8a-4708-bc34-740ec0347201",
+                    "Name": "Response Curve",
+                    "Description": null,
+                    "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [
+                      {
+                        "Name": "Return value",
+                        "Value": 1.0,
+                        "ValueTypeString": "System.Single",
+                        "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                        "FileName": "Return value",
+                        "FolderLocation": null,
+                        "Index": -1,
+                        "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "112dfdfb-b305-4b8a-9419-4490015cc897",
+                  "Name": "Fixed Value",
+                  "Description": null,
+                  "AssemblyQualifiedName": "FixedValue, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "FixedValue, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "agentActionStates": [
+                {
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [],
+                    "paramIntStates": [],
+                    "paramStringStates": [
+                      {
+                        "Name": "Text",
+                        "Value": "I am idle",
+                        "ValueTypeString": "System.String",
+                        "ValueType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                        "FileName": "Text",
+                        "FolderLocation": null,
+                        "Index": -1,
+                        "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AssemblyQualifiedName": "ParamString, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "ParamString, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ]
+                  },
+                  "guid": "2a31096f-e49d-424b-8916-a95db9c5deb0",
+                  "Name": "Debug Log Text",
+                  "Description": "Prints text and unit name",
+                  "AssemblyQualifiedName": "DebugLogText, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "DebugLogText, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "ParameterContainerState": {
+                "paramBoolStates": [],
+                "paramColorStates": [],
+                "paramEnumStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Base Weight",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Base Weight",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "paramIntStates": [],
+                "paramStringStates": []
+              },
+              "guid": "89e2c5a3-e2fa-40c6-87e1-72e3fd6fd4e6",
+              "Name": "Decision",
+              "Description": null,
+              "AssemblyQualifiedName": "Decision, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "OriginalType": "Decision, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "considerations": [
+            {
+              "PerformanceTag": 2,
+              "BaseScore": 0.0,
+              "NormalizedScore": 0.0,
+              "minParameter": {
+                "Name": "Min",
+                "Value": 0.0,
+                "ValueTypeString": "System.Single",
+                "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Min",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "maxParameter": {
+                "Name": "Max",
+                "Value": 1.0,
+                "ValueTypeString": "System.Single",
+                "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Max",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "responseCurveState": {
+                "MinY": 0.0,
+                "MaxY": 1.0,
+                "MinX": 0.0,
+                "MaxX": 1.0,
+                "IsInversed": false,
+                "responseFunctions": [
+                  {
+                    "ParameterContainerState": {
+                      "paramBoolStates": [
+                        {
+                          "Name": "Inverse",
+                          "Value": false,
+                          "ValueTypeString": "System.Boolean",
+                          "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "Inverse",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [
+                        {
+                          "Name": "Max",
+                          "Value": 1.0,
+                          "ValueTypeString": "System.Single",
+                          "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "Max",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                          "Name": "a",
+                          "Value": 1.0,
+                          "ValueTypeString": "System.Single",
+                          "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "a",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                          "Name": "b",
+                          "Value": 0.0,
+                          "ValueTypeString": "System.Single",
+                          "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "b",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "635a220a-6696-42e3-89c9-bb9da48b7f52",
+                    "Name": "Linear",
+                    "Description": null,
+                    "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "segments": [],
+                "ParameterContainerState": {
+                  "paramBoolStates": [],
+                  "paramColorStates": [],
+                  "paramEnumStates": [],
+                  "paramFloatStates": [],
+                  "paramIntStates": [],
+                  "paramStringStates": []
+                },
+                "guid": "ece85332-2705-4cdc-bfb8-8d3c906aabbc",
+                "Name": "Response Curve",
+                "Description": null,
+                "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "ParameterContainerState": {
+                "paramBoolStates": [],
+                "paramColorStates": [],
+                "paramEnumStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Return value",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Return value",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "paramIntStates": [],
+                "paramStringStates": []
+              },
+              "guid": "b45a9d0b-65d2-4e9e-99ce-0c7f05bc86fe",
+              "Name": "Fixed Value",
+              "Description": null,
+              "AssemblyQualifiedName": "FixedValue, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "OriginalType": "FixedValue, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "weight": {
+            "Name": "Weight",
+            "Value": 0.001,
+            "ValueTypeString": "System.Single",
+            "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "FileName": "Weight",
+            "FolderLocation": null,
+            "Index": -1,
+            "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "ParameterContainerState": {
+            "paramBoolStates": [],
+            "paramColorStates": [],
+            "paramEnumStates": [],
+            "paramFloatStates": [],
+            "paramIntStates": [],
+            "paramStringStates": []
+          },
+          "guid": "3a438833-5480-461b-b74e-96c7cca667e0",
+          "Name": "Idle",
+          "Description": null,
+          "AssemblyQualifiedName": "Bucket, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "OriginalType": "Bucket, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "lastCalculatedUtility": 0.0,
+          "decisions": [
+            {
+              "lastCalculatedUtility": 0.0,
+              "considerationsStates": [
+                {
+                  "PerformanceTag": 2,
+                  "BaseScore": 0.0,
+                  "NormalizedScore": 0.0,
+                  "minParameter": {
+                    "Name": "Min",
+                    "Value": 0.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Min",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "maxParameter": {
+                    "Name": "Max",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Max",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "responseCurveState": {
+                    "MinY": 0.0,
+                    "MaxY": 1.0,
+                    "MinX": 0.0,
+                    "MaxX": 1.0,
+                    "IsInversed": false,
+                    "responseFunctions": [
+                      {
+                        "ParameterContainerState": {
+                          "paramBoolStates": [
+                            {
+                              "Name": "Inverse",
+                              "Value": false,
+                              "ValueTypeString": "System.Boolean",
+                              "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Inverse",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramColorStates": [],
+                          "paramEnumStates": [],
+                          "paramFloatStates": [
+                            {
+                              "Name": "Max",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Max",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "a",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "a",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "b",
+                              "Value": 0.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "b",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramIntStates": [],
+                          "paramStringStates": []
+                        },
+                        "guid": "ff8a4a99-ca29-49a9-9590-cd92665e4ee1",
+                        "Name": "Linear",
+                        "Description": null,
+                        "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "segments": [],
+                    "ParameterContainerState": {
+                      "paramBoolStates": [],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "54e76766-f944-4e0f-bf12-26fe0f44fe61",
+                    "Name": "Response Curve",
+                    "Description": null,
+                    "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "8376a199-5433-4eac-b437-cc0edf44eafa",
+                  "Name": "Can Move",
+                  "Description": null,
+                  "AssemblyQualifiedName": "CanMove, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "CanMove, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "PerformanceTag": 2,
+                  "BaseScore": 0.0,
+                  "NormalizedScore": 0.0,
+                  "minParameter": {
+                    "Name": "Min",
+                    "Value": 0.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Min",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "maxParameter": {
+                    "Name": "Max",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Max",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "responseCurveState": {
+                    "MinY": 0.0,
+                    "MaxY": 1.0,
+                    "MinX": 0.0,
+                    "MaxX": 1.0,
+                    "IsInversed": false,
+                    "responseFunctions": [
+                      {
+                        "ParameterContainerState": {
+                          "paramBoolStates": [
+                            {
+                              "Name": "Inverse",
+                              "Value": false,
+                              "ValueTypeString": "System.Boolean",
+                              "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Inverse",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramColorStates": [],
+                          "paramEnumStates": [],
+                          "paramFloatStates": [
+                            {
+                              "Name": "Max",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Max",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "a",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "a",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "b",
+                              "Value": 0.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "b",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramIntStates": [],
+                          "paramStringStates": []
+                        },
+                        "guid": "15401728-321b-40c6-9e1f-cf7f1a2672ea",
+                        "Name": "Linear",
+                        "Description": null,
+                        "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "segments": [],
+                    "ParameterContainerState": {
+                      "paramBoolStates": [],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "a5785f55-fa71-48fb-b032-e8f43b05f886",
+                    "Name": "Response Curve",
+                    "Description": null,
+                    "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "de4488ae-cb1a-4405-a449-1341b7db1c45",
+                  "Name": "Distance Able To Move",
+                  "Description": "Returns the % of the total distance, which the unit is able to move",
+                  "AssemblyQualifiedName": "DistanceAbleToMove, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "DistanceAbleToMove, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "agentActionStates": [
+                {
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "792b4419-4773-4a50-8dfe-deb6eed722c1",
+                  "Name": "Move",
+                  "Description": "Moves the unit as much as possible",
+                  "AssemblyQualifiedName": "Move, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "Move, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "ParameterContainerState": {
+                "paramBoolStates": [],
+                "paramColorStates": [],
+                "paramEnumStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Base Weight",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Base Weight",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "paramIntStates": [],
+                "paramStringStates": []
+              },
+              "guid": "32e2d82f-2d77-4822-ab53-798778051f17",
+              "Name": "Move",
+              "Description": null,
+              "AssemblyQualifiedName": "Decision, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "OriginalType": "Decision, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            {
+              "lastCalculatedUtility": 0.0,
+              "considerationsStates": [
+                {
+                  "PerformanceTag": 2,
+                  "BaseScore": 0.0,
+                  "NormalizedScore": 0.0,
+                  "minParameter": {
+                    "Name": "Min",
+                    "Value": 0.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Min",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "maxParameter": {
+                    "Name": "Max",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Max",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "responseCurveState": {
+                    "MinY": 0.0,
+                    "MaxY": 1.0,
+                    "MinX": 0.0,
+                    "MaxX": 1.0,
+                    "IsInversed": false,
+                    "responseFunctions": [
+                      {
+                        "ParameterContainerState": {
+                          "paramBoolStates": [
+                            {
+                              "Name": "Inverse",
+                              "Value": false,
+                              "ValueTypeString": "System.Boolean",
+                              "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Inverse",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramColorStates": [],
+                          "paramEnumStates": [],
+                          "paramFloatStates": [
+                            {
+                              "Name": "Max",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Max",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "a",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "a",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "b",
+                              "Value": 0.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "b",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramIntStates": [],
+                          "paramStringStates": []
+                        },
+                        "guid": "385890eb-0927-4bab-ae54-583e00a66a58",
+                        "Name": "Linear",
+                        "Description": null,
+                        "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "segments": [],
+                    "ParameterContainerState": {
+                      "paramBoolStates": [],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "26cb0b03-0825-4e3c-91c4-e6450a4c037b",
+                    "Name": "Response Curve",
+                    "Description": null,
+                    "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "f05cc329-dc80-4949-a9fa-2c329066951b",
+                  "Name": "Target In Range",
+                  "Description": null,
+                  "AssemblyQualifiedName": "TargetInRange, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "TargetInRange, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "PerformanceTag": 2,
+                  "BaseScore": 0.0,
+                  "NormalizedScore": 0.0,
+                  "minParameter": {
+                    "Name": "Min",
+                    "Value": 0.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Min",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "maxParameter": {
+                    "Name": "Max",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Max",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "responseCurveState": {
+                    "MinY": 0.0,
+                    "MaxY": 1.0,
+                    "MinX": 0.0,
+                    "MaxX": 1.0,
+                    "IsInversed": false,
+                    "responseFunctions": [
+                      {
+                        "ParameterContainerState": {
+                          "paramBoolStates": [
+                            {
+                              "Name": "Inverse",
+                              "Value": false,
+                              "ValueTypeString": "System.Boolean",
+                              "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Inverse",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramColorStates": [],
+                          "paramEnumStates": [],
+                          "paramFloatStates": [
+                            {
+                              "Name": "Max",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Max",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "a",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "a",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "b",
+                              "Value": 0.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "b",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramIntStates": [],
+                          "paramStringStates": []
+                        },
+                        "guid": "d5774d62-b8a8-405d-a45c-58c620f9c668",
+                        "Name": "Linear",
+                        "Description": null,
+                        "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "segments": [],
+                    "ParameterContainerState": {
+                      "paramBoolStates": [],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "56e1e4cc-e009-4e6b-acff-3ec6f0b18802",
+                    "Name": "Response Curve",
+                    "Description": null,
+                    "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [
+                      {
+                        "Name": "Normal weight",
+                        "Value": 1.0,
+                        "ValueTypeString": "System.Single",
+                        "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                        "FileName": "Normal weight",
+                        "FolderLocation": null,
+                        "Index": -1,
+                        "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "Name": "Increased weight",
+                        "Value": 2.0,
+                        "ValueTypeString": "System.Single",
+                        "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                        "FileName": "Increased weight",
+                        "FolderLocation": null,
+                        "Index": -1,
+                        "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "f1d0ec57-623e-4891-a4e6-cda25b4e1bb2",
+                  "Name": "Can Kill Target",
+                  "Description": "Increases the weight of the decision, if the target can be killed",
+                  "AssemblyQualifiedName": "CanKillTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "CanKillTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "PerformanceTag": 2,
+                  "BaseScore": 0.0,
+                  "NormalizedScore": 0.0,
+                  "minParameter": {
+                    "Name": "Min",
+                    "Value": 0.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Min",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "maxParameter": {
+                    "Name": "Max",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Max",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "responseCurveState": {
+                    "MinY": 0.0,
+                    "MaxY": 1.0,
+                    "MinX": 0.0,
+                    "MaxX": 1.0,
+                    "IsInversed": false,
+                    "responseFunctions": [
+                      {
+                        "ParameterContainerState": {
+                          "paramBoolStates": [
+                            {
+                              "Name": "Inverse",
+                              "Value": false,
+                              "ValueTypeString": "System.Boolean",
+                              "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Inverse",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramColorStates": [],
+                          "paramEnumStates": [],
+                          "paramFloatStates": [
+                            {
+                              "Name": "Max",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Max",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "a",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "a",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "b",
+                              "Value": 0.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "b",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramIntStates": [],
+                          "paramStringStates": []
+                        },
+                        "guid": "fd24e275-d5b7-4a57-b8bc-c096bba3bea8",
+                        "Name": "Linear",
+                        "Description": null,
+                        "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "segments": [],
+                    "ParameterContainerState": {
+                      "paramBoolStates": [],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "dc3732d2-3054-4116-90c5-b5d3f1c4e43e",
+                    "Name": "Response Curve",
+                    "Description": null,
+                    "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "8a0392ec-b5e7-44bb-b4c4-7669ce574bc3",
+                  "Name": "Potential Damage Percent",
+                  "Description": null,
+                  "AssemblyQualifiedName": "PotentialDamagePercent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "PotentialDamagePercent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "agentActionStates": [
+                {
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "d28e9f50-273b-458d-a42c-276f956c67ad",
+                  "Name": "Attack Target",
+                  "Description": "Attacks the selected target",
+                  "AssemblyQualifiedName": "AttackTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "AttackTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "ParameterContainerState": {
+                "paramBoolStates": [
+                  {
+                    "Name": "Evaluate Defenders",
+                    "Value": true,
+                    "ValueTypeString": "System.Boolean",
+                    "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Evaluate Defenders",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  {
+                    "Name": "Evaluate Attackers",
+                    "Value": false,
+                    "ValueTypeString": "System.Boolean",
+                    "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Evaluate Attackers",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "paramColorStates": [],
+                "paramEnumStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Base Weight",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Base Weight",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "paramIntStates": [],
+                "paramStringStates": []
+              },
+              "guid": "26873a61-224b-4431-b339-50389b50582b",
+              "Name": "Evaluate All Targets",
+              "Description": "Evaluates all defensive structures and/or attacking units, based on the parameter selection. Fails if no targets are found",
+              "AssemblyQualifiedName": "EvaluateAllTargets, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "OriginalType": "EvaluateAllTargets, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "considerations": [
+            {
+              "PerformanceTag": 2,
+              "BaseScore": 0.0,
+              "NormalizedScore": 0.0,
+              "minParameter": {
+                "Name": "Min",
+                "Value": 0.0,
+                "ValueTypeString": "System.Single",
+                "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Min",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "maxParameter": {
+                "Name": "Max",
+                "Value": 1.0,
+                "ValueTypeString": "System.Single",
+                "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Max",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "responseCurveState": {
+                "MinY": 0.0,
+                "MaxY": 1.0,
+                "MinX": 0.0,
+                "MaxX": 1.0,
+                "IsInversed": false,
+                "responseFunctions": [
+                  {
+                    "ParameterContainerState": {
+                      "paramBoolStates": [
+                        {
+                          "Name": "Inverse",
+                          "Value": false,
+                          "ValueTypeString": "System.Boolean",
+                          "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "Inverse",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [
+                        {
+                          "Name": "Max",
+                          "Value": 1.0,
+                          "ValueTypeString": "System.Single",
+                          "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "Max",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                          "Name": "a",
+                          "Value": 1.0,
+                          "ValueTypeString": "System.Single",
+                          "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "a",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                          "Name": "b",
+                          "Value": 0.0,
+                          "ValueTypeString": "System.Single",
+                          "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "b",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "5b43102d-de52-4d11-a56d-bd0e1d0c5393",
+                    "Name": "Linear",
+                    "Description": null,
+                    "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "segments": [],
+                "ParameterContainerState": {
+                  "paramBoolStates": [],
+                  "paramColorStates": [],
+                  "paramEnumStates": [],
+                  "paramFloatStates": [],
+                  "paramIntStates": [],
+                  "paramStringStates": []
+                },
+                "guid": "f7dbee91-e74e-45a1-8ffe-24722bca3c32",
+                "Name": "Response Curve",
+                "Description": null,
+                "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "ParameterContainerState": {
+                "paramBoolStates": [],
+                "paramColorStates": [],
+                "paramEnumStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Return value",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Return value",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "paramIntStates": [],
+                "paramStringStates": []
+              },
+              "guid": "94387374-d3a3-47c4-a92b-6b89a048fbda",
+              "Name": "Fixed Value",
+              "Description": null,
+              "AssemblyQualifiedName": "FixedValue, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "OriginalType": "FixedValue, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "weight": {
+            "Name": "Weight",
+            "Value": 1.0,
+            "ValueTypeString": "System.Single",
+            "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "FileName": "Weight",
+            "FolderLocation": null,
+            "Index": -1,
+            "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "ParameterContainerState": {
+            "paramBoolStates": [],
+            "paramColorStates": [],
+            "paramEnumStates": [],
+            "paramFloatStates": [],
+            "paramIntStates": [],
+            "paramStringStates": []
+          },
+          "guid": "1d9e7de2-9f41-4d23-92cf-505363f9e2df",
+          "Name": "Standard bucket",
+          "Description": null,
+          "AssemblyQualifiedName": "Bucket, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "OriginalType": "Bucket, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "ParameterContainerState": {
+        "paramBoolStates": [],
+        "paramColorStates": [],
+        "paramEnumStates": [],
+        "paramFloatStates": [],
+        "paramIntStates": [],
+        "paramStringStates": []
+      },
+      "guid": "a0bff60c-14f3-41b6-a7ba-b2b6f57d76aa",
+      "Name": "Attacker",
+      "Description": null,
+      "AssemblyQualifiedName": "Uai, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "OriginalType": "Uai, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "IsPLayable": true,
+      "CurrentBucketSelectorName": "Highest Score",
+      "CurrentDecisionSelectorName": "Highest Score",
+      "USName": "Average",
+      "bucketSelectorStates": [
+        {
+          "ParameterContainerState": {
+            "paramBoolStates": [
+              {
+                "Name": "Percentage chance",
+                "Value": true,
+                "ValueTypeString": "System.Boolean",
+                "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Percentage chance",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "paramColorStates": [],
+            "paramEnumStates": [],
+            "paramFloatStates": [
+              {
+                "Name": "Max deviation from highest",
+                "Value": 1.0,
+                "ValueTypeString": "System.Single",
+                "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Max deviation from highest",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "paramIntStates": [
+              {
+                "Name": "Number Of Items",
+                "Value": 1,
+                "ValueTypeString": "System.Int32",
+                "ValueType": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Number Of Items",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamInt, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamInt, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "paramStringStates": []
+          },
+          "AssemblyQualifiedName": "UCSRandomFromXHighest, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "OriginalType": "UCSRandomFromXHighest, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "ParameterContainerState": {
+            "paramBoolStates": [],
+            "paramColorStates": [],
+            "paramEnumStates": [],
+            "paramFloatStates": [],
+            "paramIntStates": [],
+            "paramStringStates": []
+          },
+          "AssemblyQualifiedName": "UCSHighestScore, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "OriginalType": "UCSHighestScore, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "decisionSelectorStates": [
+        {
+          "ParameterContainerState": {
+            "paramBoolStates": [
+              {
+                "Name": "Percentage chance",
+                "Value": true,
+                "ValueTypeString": "System.Boolean",
+                "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Percentage chance",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "paramColorStates": [],
+            "paramEnumStates": [],
+            "paramFloatStates": [
+              {
+                "Name": "Max deviation from highest",
+                "Value": 1.0,
+                "ValueTypeString": "System.Single",
+                "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Max deviation from highest",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "paramIntStates": [
+              {
+                "Name": "Number Of Items",
+                "Value": 1,
+                "ValueTypeString": "System.Int32",
+                "ValueType": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Number Of Items",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamInt, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamInt, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "paramStringStates": []
+          },
+          "AssemblyQualifiedName": "UCSRandomFromXHighest, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "OriginalType": "UCSRandomFromXHighest, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "ParameterContainerState": {
+            "paramBoolStates": [],
+            "paramColorStates": [],
+            "paramEnumStates": [],
+            "paramFloatStates": [],
+            "paramIntStates": [],
+            "paramStringStates": []
+          },
+          "AssemblyQualifiedName": "UCSHighestScore, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "OriginalType": "UCSHighestScore, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "bucketStates": [
+        {
+          "lastCalculatedUtility": 0.0,
+          "decisions": [
+            {
+              "lastCalculatedUtility": 0.0,
+              "considerationsStates": [
+                {
+                  "PerformanceTag": 2,
+                  "BaseScore": 0.0,
+                  "NormalizedScore": 0.0,
+                  "minParameter": {
+                    "Name": "Min",
+                    "Value": 0.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Min",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "maxParameter": {
+                    "Name": "Max",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Max",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "responseCurveState": {
+                    "MinY": 0.0,
+                    "MaxY": 1.0,
+                    "MinX": 0.0,
+                    "MaxX": 1.0,
+                    "IsInversed": true,
+                    "responseFunctions": [
+                      {
+                        "ParameterContainerState": {
+                          "paramBoolStates": [
+                            {
+                              "Name": "Inverse",
+                              "Value": false,
+                              "ValueTypeString": "System.Boolean",
+                              "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Inverse",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramColorStates": [],
+                          "paramEnumStates": [],
+                          "paramFloatStates": [
+                            {
+                              "Name": "Max",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Max",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "Return",
+                              "Value": 0.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Return",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramIntStates": [],
+                          "paramStringStates": []
+                        },
+                        "guid": "eb595e72-7ea1-41a0-8e6a-b9c19b96e74c",
+                        "Name": "Fixed Value",
+                        "Description": null,
+                        "AssemblyQualifiedName": "FixedValueFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "FixedValueFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "ParameterContainerState": {
+                          "paramBoolStates": [
+                            {
+                              "Name": "Inverse",
+                              "Value": false,
+                              "ValueTypeString": "System.Boolean",
+                              "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Inverse",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramColorStates": [],
+                          "paramEnumStates": [],
+                          "paramFloatStates": [
+                            {
+                              "Name": "Max",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Max",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "a",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "a",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "b",
+                              "Value": 0.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "b",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramIntStates": [],
+                          "paramStringStates": []
+                        },
+                        "guid": "03ca90cb-ac65-49ec-b03c-88e8eb02052c",
+                        "Name": "Linear",
+                        "Description": null,
+                        "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "segments": [
+                      {
+                        "Name": "0",
+                        "Value": 0.15,
+                        "ValueTypeString": "System.Single",
+                        "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                        "FileName": "0",
+                        "FolderLocation": null,
+                        "Index": -1,
+                        "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "ParameterContainerState": {
+                      "paramBoolStates": [],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "19bc40b8-0399-4dc1-b307-fb71494ec283",
+                    "Name": "Response Curve",
+                    "Description": null,
+                    "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "32bbed17-c04e-4481-aea4-405fe03d3b4d",
+                  "Name": "Health Percentage Of Max",
+                  "Description": "Returns health as percentage of max health",
+                  "AssemblyQualifiedName": "HealthPercentageOfMax, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "HealthPercentageOfMax, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "PerformanceTag": 2,
+                  "BaseScore": 0.0,
+                  "NormalizedScore": 0.0,
+                  "minParameter": {
+                    "Name": "Min",
+                    "Value": 0.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Min",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "maxParameter": {
+                    "Name": "Max",
+                    "Value": 10.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Max",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "responseCurveState": {
+                    "MinY": 0.0,
+                    "MaxY": 1.0,
+                    "MinX": 0.0,
+                    "MaxX": 10.0,
+                    "IsInversed": false,
+                    "responseFunctions": [
+                      {
+                        "ParameterContainerState": {
+                          "paramBoolStates": [
+                            {
+                              "Name": "Inverse",
+                              "Value": false,
+                              "ValueTypeString": "System.Boolean",
+                              "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Inverse",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramColorStates": [],
+                          "paramEnumStates": [],
+                          "paramFloatStates": [
+                            {
+                              "Name": "Max",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Max",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "a",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "a",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "b",
+                              "Value": 0.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "b",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramIntStates": [],
+                          "paramStringStates": []
+                        },
+                        "guid": "480df9f5-6ac9-4416-9c4a-f7fc907f2b4a",
+                        "Name": "Linear",
+                        "Description": null,
+                        "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "segments": [],
+                    "ParameterContainerState": {
+                      "paramBoolStates": [],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "ff5049e6-c24c-44f1-b85d-f42665ef1e5a",
+                    "Name": "Response Curve",
+                    "Description": null,
+                    "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "ParameterContainerState": {
+                    "paramBoolStates": [
+                      {
+                        "Name": "Attached To Bucket",
+                        "Value": false,
+                        "ValueTypeString": "System.Boolean",
+                        "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                        "FileName": "Attached To Bucket",
+                        "FolderLocation": null,
+                        "Index": -1,
+                        "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "Name": "Attached To Decision",
+                        "Value": true,
+                        "ValueTypeString": "System.Boolean",
+                        "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                        "FileName": "Attached To Decision",
+                        "FolderLocation": null,
+                        "Index": -1,
+                        "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "1536fc5a-d20d-40b8-9379-5947d963a575",
+                  "Name": "Continuation",
+                  "Description": "Returns the amount of consecutive selections",
+                  "AssemblyQualifiedName": "Continuation, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "Continuation, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "agentActionStates": [
+                {
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "749ae028-2683-4821-b453-66ffdecd4177",
+                  "Name": "Repair",
+                  "Description": "Repairs the unit, and counts the number of consecutive repairs.",
+                  "AssemblyQualifiedName": "Repair, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "Repair, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "ParameterContainerState": {
+                "paramBoolStates": [],
+                "paramColorStates": [],
+                "paramEnumStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Base Weight",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Base Weight",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "paramIntStates": [],
+                "paramStringStates": []
+              },
+              "guid": "1312e56c-c971-451f-9583-9a79403e8117",
+              "Name": "Repair",
+              "Description": null,
+              "AssemblyQualifiedName": "Decision, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "OriginalType": "Decision, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            {
+              "lastCalculatedUtility": 0.0,
+              "considerationsStates": [
+                {
+                  "PerformanceTag": 2,
+                  "BaseScore": 0.0,
+                  "NormalizedScore": 0.0,
+                  "minParameter": {
+                    "Name": "Min",
+                    "Value": 0.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Min",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "maxParameter": {
+                    "Name": "Max",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Max",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "responseCurveState": {
+                    "MinY": 0.0,
+                    "MaxY": 1.0,
+                    "MinX": 0.0,
+                    "MaxX": 1.0,
+                    "IsInversed": false,
+                    "responseFunctions": [
+                      {
+                        "ParameterContainerState": {
+                          "paramBoolStates": [
+                            {
+                              "Name": "Inverse",
+                              "Value": false,
+                              "ValueTypeString": "System.Boolean",
+                              "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Inverse",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramColorStates": [],
+                          "paramEnumStates": [],
+                          "paramFloatStates": [
+                            {
+                              "Name": "Max",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Max",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "a",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "a",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "b",
+                              "Value": 0.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "b",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramIntStates": [],
+                          "paramStringStates": []
+                        },
+                        "guid": "a80fed04-bfde-4f78-8388-6c6c278136a2",
+                        "Name": "Linear",
+                        "Description": null,
+                        "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "segments": [],
+                    "ParameterContainerState": {
+                      "paramBoolStates": [],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "76a67665-fac6-4ef4-a9b4-e23223caf0f7",
+                    "Name": "Response Curve",
+                    "Description": null,
+                    "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [
+                      {
+                        "Name": "Normal weight",
+                        "Value": 1.0,
+                        "ValueTypeString": "System.Single",
+                        "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                        "FileName": "Normal weight",
+                        "FolderLocation": null,
+                        "Index": -1,
+                        "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "Name": "Increased weight",
+                        "Value": 2.0,
+                        "ValueTypeString": "System.Single",
+                        "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                        "FileName": "Increased weight",
+                        "FolderLocation": null,
+                        "Index": -1,
+                        "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "c9990b21-b452-4999-aa5f-bc3afb51077b",
+                  "Name": "Can Kill Target",
+                  "Description": "Increases the weight of the decision, if the target can be killed",
+                  "AssemblyQualifiedName": "CanKillTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "CanKillTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "PerformanceTag": 2,
+                  "BaseScore": 0.0,
+                  "NormalizedScore": 0.0,
+                  "minParameter": {
+                    "Name": "Min",
+                    "Value": 0.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Min",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "maxParameter": {
+                    "Name": "Max",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Max",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "responseCurveState": {
+                    "MinY": 0.0,
+                    "MaxY": 1.0,
+                    "MinX": 0.0,
+                    "MaxX": 1.0,
+                    "IsInversed": false,
+                    "responseFunctions": [
+                      {
+                        "ParameterContainerState": {
+                          "paramBoolStates": [
+                            {
+                              "Name": "Inverse",
+                              "Value": false,
+                              "ValueTypeString": "System.Boolean",
+                              "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Inverse",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramColorStates": [],
+                          "paramEnumStates": [],
+                          "paramFloatStates": [
+                            {
+                              "Name": "Max",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Max",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "a",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "a",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "b",
+                              "Value": 0.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "b",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramIntStates": [],
+                          "paramStringStates": []
+                        },
+                        "guid": "aaaad063-b228-4426-8df6-d82c0d9ce11b",
+                        "Name": "Linear",
+                        "Description": null,
+                        "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "segments": [],
+                    "ParameterContainerState": {
+                      "paramBoolStates": [],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "00e15ee2-503d-48af-bb7a-a350348aae7c",
+                    "Name": "Response Curve",
+                    "Description": null,
+                    "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "dd1f2517-2208-48d5-bd3e-82b0d7df369a",
+                  "Name": "Target In Range",
+                  "Description": null,
+                  "AssemblyQualifiedName": "TargetInRange, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "TargetInRange, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "PerformanceTag": 2,
+                  "BaseScore": 0.0,
+                  "NormalizedScore": 0.0,
+                  "minParameter": {
+                    "Name": "Min",
+                    "Value": 0.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Min",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "maxParameter": {
+                    "Name": "Max",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Max",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "responseCurveState": {
+                    "MinY": 0.0,
+                    "MaxY": 1.0,
+                    "MinX": 0.0,
+                    "MaxX": 1.0,
+                    "IsInversed": false,
+                    "responseFunctions": [
+                      {
+                        "ParameterContainerState": {
+                          "paramBoolStates": [
+                            {
+                              "Name": "Inverse",
+                              "Value": false,
+                              "ValueTypeString": "System.Boolean",
+                              "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Inverse",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramColorStates": [],
+                          "paramEnumStates": [],
+                          "paramFloatStates": [
+                            {
+                              "Name": "Max",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Max",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "a",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "a",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "b",
+                              "Value": 0.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "b",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramIntStates": [],
+                          "paramStringStates": []
+                        },
+                        "guid": "9c8fc3a4-9dd1-4170-bcc3-135727dd4331",
+                        "Name": "Linear",
+                        "Description": null,
+                        "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "segments": [],
+                    "ParameterContainerState": {
+                      "paramBoolStates": [],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "d5bf3c84-bbe6-4653-8c62-9ab529386edc",
+                    "Name": "Response Curve",
+                    "Description": null,
+                    "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "8ad338fc-389f-46c2-bebd-14006ec7b60e",
+                  "Name": "Potential Damage Percent",
+                  "Description": null,
+                  "AssemblyQualifiedName": "PotentialDamagePercent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "PotentialDamagePercent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "agentActionStates": [
+                {
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "30788532-e841-4972-9431-dadf795c640a",
+                  "Name": "Attack Target",
+                  "Description": "Attacks the selected target",
+                  "AssemblyQualifiedName": "AttackTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "AttackTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "ParameterContainerState": {
+                "paramBoolStates": [
+                  {
+                    "Name": "Evaluate Defenders",
+                    "Value": false,
+                    "ValueTypeString": "System.Boolean",
+                    "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Evaluate Defenders",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  {
+                    "Name": "Evaluate Attackers",
+                    "Value": true,
+                    "ValueTypeString": "System.Boolean",
+                    "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Evaluate Attackers",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "paramColorStates": [],
+                "paramEnumStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Base Weight",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Base Weight",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "paramIntStates": [],
+                "paramStringStates": []
+              },
+              "guid": "e4af02b1-1c16-43f1-8e6f-ee16f82c7128",
+              "Name": "Attack best target",
+              "Description": "Evaluates all defensive structures and/or attacking units, based on the parameter selection. Fails if no targets are found",
+              "AssemblyQualifiedName": "EvaluateAllTargets, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "OriginalType": "EvaluateAllTargets, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "considerations": [
+            {
+              "PerformanceTag": 2,
+              "BaseScore": 0.0,
+              "NormalizedScore": 0.0,
+              "minParameter": {
+                "Name": "Min",
+                "Value": 0.0,
+                "ValueTypeString": "System.Single",
+                "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Min",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "maxParameter": {
+                "Name": "Max",
+                "Value": 1.0,
+                "ValueTypeString": "System.Single",
+                "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Max",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "responseCurveState": {
+                "MinY": 0.0,
+                "MaxY": 1.0,
+                "MinX": 0.0,
+                "MaxX": 1.0,
+                "IsInversed": false,
+                "responseFunctions": [
+                  {
+                    "ParameterContainerState": {
+                      "paramBoolStates": [
+                        {
+                          "Name": "Inverse",
+                          "Value": false,
+                          "ValueTypeString": "System.Boolean",
+                          "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "Inverse",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [
+                        {
+                          "Name": "Max",
+                          "Value": 1.0,
+                          "ValueTypeString": "System.Single",
+                          "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "Max",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                          "Name": "a",
+                          "Value": 1.0,
+                          "ValueTypeString": "System.Single",
+                          "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "a",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                          "Name": "b",
+                          "Value": 0.0,
+                          "ValueTypeString": "System.Single",
+                          "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "b",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "b1ab0699-f946-434f-a9ca-208db9603031",
+                    "Name": "Linear",
+                    "Description": null,
+                    "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "segments": [],
+                "ParameterContainerState": {
+                  "paramBoolStates": [],
+                  "paramColorStates": [],
+                  "paramEnumStates": [],
+                  "paramFloatStates": [],
+                  "paramIntStates": [],
+                  "paramStringStates": []
+                },
+                "guid": "c6b21a41-9200-4ef7-bf9a-51595193c5df",
+                "Name": "Response Curve",
+                "Description": null,
+                "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "ParameterContainerState": {
+                "paramBoolStates": [],
+                "paramColorStates": [],
+                "paramEnumStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Return value",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Return value",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "paramIntStates": [],
+                "paramStringStates": []
+              },
+              "guid": "dcab335e-ee80-432d-bc3b-770460fe94af",
+              "Name": "Fixed Value",
+              "Description": null,
+              "AssemblyQualifiedName": "FixedValue, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "OriginalType": "FixedValue, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "weight": {
+            "Name": "Weight",
+            "Value": 1.0,
+            "ValueTypeString": "System.Single",
+            "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "FileName": "Weight",
+            "FolderLocation": null,
+            "Index": -1,
+            "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "ParameterContainerState": {
+            "paramBoolStates": [],
+            "paramColorStates": [],
+            "paramEnumStates": [],
+            "paramFloatStates": [],
+            "paramIntStates": [],
+            "paramStringStates": []
+          },
+          "guid": "3f629d90-483d-463f-a080-c55b4d748d4b",
+          "Name": "Standard - Defence",
+          "Description": null,
+          "AssemblyQualifiedName": "Bucket, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "OriginalType": "Bucket, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "lastCalculatedUtility": 0.0,
+          "decisions": [
+            {
+              "lastCalculatedUtility": 0.0,
+              "considerationsStates": [
+                {
+                  "PerformanceTag": 2,
+                  "BaseScore": 0.0,
+                  "NormalizedScore": 0.0,
+                  "minParameter": {
+                    "Name": "Min",
+                    "Value": 0.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Min",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "maxParameter": {
+                    "Name": "Max",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Max",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "responseCurveState": {
+                    "MinY": 0.0,
+                    "MaxY": 1.0,
+                    "MinX": 0.0,
+                    "MaxX": 1.0,
+                    "IsInversed": false,
+                    "responseFunctions": [
+                      {
+                        "ParameterContainerState": {
+                          "paramBoolStates": [
+                            {
+                              "Name": "Inverse",
+                              "Value": false,
+                              "ValueTypeString": "System.Boolean",
+                              "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Inverse",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramColorStates": [],
+                          "paramEnumStates": [],
+                          "paramFloatStates": [
+                            {
+                              "Name": "Max",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "Max",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "a",
+                              "Value": 1.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "a",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "Name": "b",
+                              "Value": 0.0,
+                              "ValueTypeString": "System.Single",
+                              "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                              "FileName": "b",
+                              "FolderLocation": null,
+                              "Index": -1,
+                              "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                              "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "paramIntStates": [],
+                          "paramStringStates": []
+                        },
+                        "guid": "b0de6f01-0cc6-48c0-87db-c93b84aeab39",
+                        "Name": "Linear",
+                        "Description": null,
+                        "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "segments": [],
+                    "ParameterContainerState": {
+                      "paramBoolStates": [],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "3b0a2d8d-9023-45d0-86d8-470c9ea71b92",
+                    "Name": "Response Curve",
+                    "Description": null,
+                    "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [
+                      {
+                        "Name": "Return value",
+                        "Value": 1.0,
+                        "ValueTypeString": "System.Single",
+                        "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                        "FileName": "Return value",
+                        "FolderLocation": null,
+                        "Index": -1,
+                        "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "paramIntStates": [],
+                    "paramStringStates": []
+                  },
+                  "guid": "1ad21dad-239d-4f0a-8bd6-8cd0ac80cfe5",
+                  "Name": "Fixed Value",
+                  "Description": null,
+                  "AssemblyQualifiedName": "FixedValue, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "FixedValue, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "agentActionStates": [
+                {
+                  "ParameterContainerState": {
+                    "paramBoolStates": [],
+                    "paramColorStates": [],
+                    "paramEnumStates": [],
+                    "paramFloatStates": [],
+                    "paramIntStates": [],
+                    "paramStringStates": [
+                      {
+                        "Name": "Text",
+                        "Value": "I am idle!",
+                        "ValueTypeString": "System.String",
+                        "ValueType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                        "FileName": "Text",
+                        "FolderLocation": null,
+                        "Index": -1,
+                        "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "AssemblyQualifiedName": "ParamString, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "OriginalType": "ParamString, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ]
+                  },
+                  "guid": "0e5a1f74-8003-40ad-bb21-e5d184e09aff",
+                  "Name": "Debug Log Text",
+                  "Description": "Prints text and unit name",
+                  "AssemblyQualifiedName": "DebugLogText, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "OriginalType": "DebugLogText, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "ParameterContainerState": {
+                "paramBoolStates": [],
+                "paramColorStates": [],
+                "paramEnumStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Base Weight",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Base Weight",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "paramIntStates": [],
+                "paramStringStates": []
+              },
+              "guid": "23dc05a0-1520-4da7-8609-8a6614ca1157",
+              "Name": "Idle",
+              "Description": null,
+              "AssemblyQualifiedName": "Decision, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "OriginalType": "Decision, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "considerations": [
+            {
+              "PerformanceTag": 2,
+              "BaseScore": 0.0,
+              "NormalizedScore": 0.0,
+              "minParameter": {
+                "Name": "Min",
+                "Value": 0.0,
+                "ValueTypeString": "System.Single",
+                "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Min",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "maxParameter": {
+                "Name": "Max",
+                "Value": 1.0,
+                "ValueTypeString": "System.Single",
+                "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "FileName": "Max",
+                "FolderLocation": null,
+                "Index": -1,
+                "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "responseCurveState": {
+                "MinY": 0.0,
+                "MaxY": 1.0,
+                "MinX": 0.0,
+                "MaxX": 1.0,
+                "IsInversed": false,
+                "responseFunctions": [
+                  {
+                    "ParameterContainerState": {
+                      "paramBoolStates": [
+                        {
+                          "Name": "Inverse",
+                          "Value": false,
+                          "ValueTypeString": "System.Boolean",
+                          "ValueType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "Inverse",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamBool, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "paramColorStates": [],
+                      "paramEnumStates": [],
+                      "paramFloatStates": [
+                        {
+                          "Name": "Max",
+                          "Value": 1.0,
+                          "ValueTypeString": "System.Single",
+                          "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "Max",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                          "Name": "a",
+                          "Value": 1.0,
+                          "ValueTypeString": "System.Single",
+                          "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "a",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                          "Name": "b",
+                          "Value": 0.0,
+                          "ValueTypeString": "System.Single",
+                          "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                          "FileName": "b",
+                          "FolderLocation": null,
+                          "Index": -1,
+                          "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "paramIntStates": [],
+                      "paramStringStates": []
+                    },
+                    "guid": "58c31db7-85a6-4a41-821d-b14ccb6461ac",
+                    "Name": "Linear",
+                    "Description": null,
+                    "AssemblyQualifiedName": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "LinearFunction, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "segments": [],
+                "ParameterContainerState": {
+                  "paramBoolStates": [],
+                  "paramColorStates": [],
+                  "paramEnumStates": [],
+                  "paramFloatStates": [],
+                  "paramIntStates": [],
+                  "paramStringStates": []
+                },
+                "guid": "33fc0174-e8a2-4079-b9c0-1ace727d52c0",
+                "Name": "Response Curve",
+                "Description": null,
+                "AssemblyQualifiedName": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "OriginalType": "ResponseCurve, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "ParameterContainerState": {
+                "paramBoolStates": [],
+                "paramColorStates": [],
+                "paramEnumStates": [],
+                "paramFloatStates": [
+                  {
+                    "Name": "Return value",
+                    "Value": 1.0,
+                    "ValueTypeString": "System.Single",
+                    "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                    "FileName": "Return value",
+                    "FolderLocation": null,
+                    "Index": -1,
+                    "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "paramIntStates": [],
+                "paramStringStates": []
+              },
+              "guid": "165ffebb-c84f-4629-9a7f-6cca6a8f0161",
+              "Name": "Fixed Value",
+              "Description": null,
+              "AssemblyQualifiedName": "FixedValue, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "OriginalType": "FixedValue, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "weight": {
+            "Name": "Weight",
+            "Value": 0.001,
+            "ValueTypeString": "System.Single",
+            "ValueType": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "FileName": "Weight",
+            "FolderLocation": null,
+            "Index": -1,
+            "AssemblyName": "Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "AssemblyQualifiedName": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "OriginalType": "ParamFloat, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "ParameterContainerState": {
+            "paramBoolStates": [],
+            "paramColorStates": [],
+            "paramEnumStates": [],
+            "paramFloatStates": [],
+            "paramIntStates": [],
+            "paramStringStates": []
+          },
+          "guid": "52e810db-8361-4c0a-a8e4-c7c7c394199d",
+          "Name": "Idle",
+          "Description": null,
+          "AssemblyQualifiedName": "Bucket, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "OriginalType": "Bucket, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "ParameterContainerState": {
+        "paramBoolStates": [],
+        "paramColorStates": [],
+        "paramEnumStates": [],
+        "paramFloatStates": [],
+        "paramIntStates": [],
+        "paramStringStates": []
+      },
+      "guid": "24e62a70-b5b5-4cd2-8a46-55f346ce8272",
+      "Name": "Defender",
+      "Description": null,
+      "AssemblyQualifiedName": "Uai, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "OriginalType": "Uai, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "AssemblyQualifiedName": "PlayAbleAiService, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "OriginalType": "PlayAbleAiService, Devoe.UAS.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}
